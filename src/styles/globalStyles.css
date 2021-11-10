@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --very-dark-blue: #1B1D23;
+    --dark-grey: #60636D;
+    --medium-grey: #7D828F;
+    --light-grey: #C8CCD8;
+    --very-light-grey: #EEEFF4;
+    --errors: #DF5656;
+}
+
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.container {
+    /* VER ESTO EN MOBILE */
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Spartan', sans-serif;
+}
