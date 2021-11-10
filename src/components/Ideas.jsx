@@ -13,7 +13,7 @@ const Ideas = () => {
         <a href='/about' className={styles.ideas__link}>
           About Us
           <span className={styles.arrow}>
-            <img src={group6Image} alt='' />
+            <img src={group6Image} alt='arrow' />
           </span>
         </a>
       </div>

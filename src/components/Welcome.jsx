@@ -31,7 +31,7 @@ const Welcome = () => {
         <div className={styles.welcome__contents_right}>
           <img
             src={welcomeImage}
-            alt=''
+            alt='welcome'
             className={styles.welcome__right_img}
           />
         </div>
