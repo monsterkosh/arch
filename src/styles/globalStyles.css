@@ -20,8 +20,13 @@ main {
 }
 
 .container {
-    /* VER ESTO EN MOBILE */
     width: 80%;
     margin: 0 auto;
     font-family: 'Spartan', sans-serif;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
 }
