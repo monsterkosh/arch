@@ -34,3 +34,18 @@
 .arrow {
     margin-left: 10px;
 }
+
+@media (max-width: 1000px) {
+    .ideas {
+        height: 600px;
+        background-image: url("../assets/home/tablet/image-small-team.jpg");
+    }
+}
+
+@media (max-width: 500px) {
+    .ideas {
+        height: 500px;
+        background-image: url("../assets/home/mobile/image-small-team.jpg");
+    }
+}
+

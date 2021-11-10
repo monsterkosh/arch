@@ -1,3 +1,5 @@
+import Featured from './components/Featured';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Ideas from './components/Ideas';
 import Navbar from './components/Navbar';
@@ -11,6 +13,8 @@ function App() {
       <Hero />
       <Welcome />
       <Ideas />
+      <Featured />
+      <Footer />
     </div>
   );
 }

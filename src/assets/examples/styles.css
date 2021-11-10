@@ -36,14 +36,14 @@ nav {
     display: flex;
 }
 
-.nav__logo--container img {
+.nav__logo_container img {
     margin-right: 80px;
 }
 
 
 
 
-.nav__links--container {
+.nav__links_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,23 +51,23 @@ nav {
 }
 
 
-.nav__links--container a {
+.nav__links_container a {
     text-decoration: none;
     color: var(--medium-grey)
 }
 
-.nav__links--container a:hover {
+.nav__links_container a:hover {
     color: black;
     transition: 0.2s ease-in-out;
 }
 
 
 
-.nav__links--container :nth-child(1) {
+.nav__links_container :nth-child(1) {
     margin-right: 50px;
 }
 
-.nav__links--container :nth-child(2) {
+.nav__links_container :nth-child(2) {
     margin-right: 50px;
 }
 
@@ -316,7 +316,7 @@ nav {
 
 
 
-.featured__title--container {
+.featured__title_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -342,7 +342,7 @@ nav {
     transition: 0.2s ease-in-out;
 }
 
-.featured__images--container {
+.featured__images_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -351,7 +351,7 @@ nav {
 
 }
 
-.featured__image--card {
+.featured__image_card {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
@@ -362,7 +362,7 @@ nav {
 
 }
 
-.featured__card--number {
+.featured__card_number {
     font-size: 9rem;
     color: rgba(211, 211, 211, 0.466);
     z-index: 10;
@@ -373,7 +373,7 @@ nav {
 
 }
 
-.featured__image--text {
+.featured__image_text {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -382,29 +382,26 @@ nav {
 
 }
 
-.featured__image--text h3 {
+.featured__image_text h3 {
     font-size: 1rem;
     color: var(--very-light-grey);
     margin-bottom: 5px;
 }
 
-.featured__image--text p {
+.featured__image_text p {
     color: var(--light-grey);
 }
 
 .sol {
     background-image: url("assets/portfolio/desktop/image-del-sol.jpg");
-
 }
 
 .tower {
     background-image: url('assets/portfolio/desktop/image-228b.jpg');
-
 }
 
 .proto {
     background-image: url('assets/portfolio/desktop/image-prototype.jpg');
-
 }
 
 /*   Footer ***************************/
