@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/heritage.module.css';
+import styles from '../../styles/heritage.module.css';
 
 const Heritage = () => {
   return (

@@ -1,6 +1,6 @@
-import About from '../components/About';
-import Heritage from '../components/Heritage';
-import Leaders from '../components/Leaders';
+import About from '../components/about/About';
+import Heritage from '../components/heritage/Heritage';
+import Leaders from '../components/leaders/Leaders';
 
 const aboutPage = () => {
   return (

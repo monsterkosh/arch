@@ -1,7 +1,7 @@
-import Featured from '../components/Featured';
-import Hero from '../components/Hero';
-import Ideas from '../components/Ideas';
-import Welcome from '../components/Welcome';
+import Featured from '../components/featured/Featured';
+import Hero from '../components/hero/Hero';
+import Ideas from '../components/ideas/Ideas';
+import Welcome from '../components/welcome/Welcome';
 
 const homePage = () => {
   return (

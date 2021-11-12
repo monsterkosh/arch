@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/leaders.module.css';
+import styles from '../../styles/leaders.module.css';
 
 const LeadersCard = ({ image, name, title }) => {
   return (

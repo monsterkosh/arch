@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from '../styles/leaders.module.css';
-import leaders from '../data/leadersData';
+import styles from '../../styles/leaders.module.css';
+import leaders from '../../data/leadersData';
 import LeadersCard from './LeadersCard';
 
 const Leaders = () => {
@@ -14,9 +14,10 @@ const Leaders = () => {
           </h2>
           <div className={styles.leaders__right}>
             <>
-              {leaders.map(function (item) {
+              {leaders.map(function (item, id) {
                 return (
                   <LeadersCard
+                    key={id}
                     image={item.image}
                     name={item.name}
                     title={item.title}

@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from '../styles/featured.module.css';
-import group6Image from '../assets/Group6.png';
+import styles from '../../styles/featured.module.css';
+import group6Image from '../../assets/Group6.png';
 
 const Featured = () => {
   return (

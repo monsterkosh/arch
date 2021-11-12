@@ -1,7 +1,7 @@
 import HomePage from './views/homePage';
 import PortfolioPage from './views/portfolioPage';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 import './styles/globalStyles.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AboutPage from './views/aboutPage';

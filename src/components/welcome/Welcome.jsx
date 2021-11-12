@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from '../styles/welcome.module.css';
-import welcomeImage from '../assets/home/desktop/image-welcome.jpg';
+import styles from '../../styles/welcome.module.css';
+import welcomeImage from '../../assets/home/desktop/image-welcome.jpg';
 
 const Welcome = () => {
   return (
